@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "starship-control-client"
+version = "1.4.0"
+description = "Command-line status client for Starship control-plane deployments"
+requires-python = ">=3.9"
+
+[project.scripts]
+starship-control = "app:main"
